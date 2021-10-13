@@ -21,13 +21,19 @@ Data Types
 <br/>
 Basic Operators and Type Conversion
 <br/>
-*Answer given by output, explanation*
+*Answer given by output, explanation* <br/>
 13. A. 32, concats the literal string 3 with 2 since '+' means concat in this case <br/>
  B. 1, '-' is recognized as a mathematical operator so converts 3 into number <br/>
  C. 3, null is numerically converted to 0 <br/>
  D. 3null, since 3 is a string, '+' is recognized as concat and interprets null to be a string <br/>
  E. 4, true is numerically converted to 1 <br/>
- F. 0, both null and false are numerically converted to 0 br/>
+ F. 0, both null and false are numerically converted to 0 <br/>
  G. 3undefined, since 3 is a string,  '+' is recognized as concat and interprets undefined a string <br/>
- H.NaN, undefined is numerically NaN so subtracting a string by NaN returns NaN
- 
+ H.NaN, undefined is numerically NaN so subtracting a string by NaN returns NaN <br/>
+14. A. true, 2 is converted to a number <br/> 
+B. true, compares strings by first character and '2' > '1' <br/>
+C. true, '2' is converted to a number <br/>
+D. false, 2 is not strictly equal to '2' <br/>
+E. false, true is numerically equal to 1 <br/>
+F. true, any x that is not undefined or null, Boolean(x) = true <br/>
+15. == is regular equality and will automatically convert objects (i.e. strings to numbers) to do a possible comparision while === checks if two objects are strictly equal so the type similarities are considered <br/>
