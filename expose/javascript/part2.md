@@ -41,4 +41,5 @@ F. true, any x that is not undefined or null, Boolean(x) = true <br/>
 15. == is regular equality and will automatically convert objects (i.e. strings to numbers) to do a possible comparision while === checks if two objects are strictly equal so the type similarities are considered <br/>
 <br/>
 17. This function should return [2, 4, 6] because modifyArray will run doSomething for every element in the given array and doSomething multiplies the element by 2.
-
+<br/>
+19. This should output 1 4 3 2 because of the order of the lines executed and timeouts.
